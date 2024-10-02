@@ -1,0 +1,123 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #eae6f5; /* Fundo lilás claro */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #5e4b8a; /* Roxo escuro */
+    margin-top: 50px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #d3c2e0; /* Lilás claro */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #d3c2e0; /* Lilás claro */
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="text"]:focus {
+    border-color: #9b7cb9; /* Roxo médio */
+    outline: none;
+}
+
+input[type="submit"] {
+    background-color: #7a4b99; /* Roxo */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #6e4290; /* Roxo mais escuro */
+}
+
+@media (max-width: 600px) {
+    form {
+        width: 90%;
+    }
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff; /* Fundo branco para a tabela */
+    border-radius: 8px; /* Bordas arredondadas */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+}
+
+th, td {
+    border: 1px solid #d3c2e0; /* Lilás claro */
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #7a4b99; /* Roxo */
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f4f4f4; /* Fundo alternado lilás claro */
+}
+
+tr:hover {
+    background-color: #e1d7e8; /* Efeito de hover em linhas da tabela */
+}
+
+.table-title {
+    text-align: center; /* Centraliza o texto */
+    color: #5e4b8a; /* Roxo escuro */
+    margin-top: 20px; /* Espaço acima */
+    margin-bottom: 10px; /* Espaço abaixo */
+}
+
+.connection-message {
+    text-align: center; /* Centraliza o texto */
+    color: #5e4b8a; /* Roxo escuro */
+    margin-top: 20px; /* Espaço acima */
+    font-family: Arial, sans-serif; /* Fonte padrão */
+    font-size: 16px; /* Tamanho da fonte */
+}
+
+/* Estilização do link de exclusão */
+.delete-link {
+    color: #000000; /* Roxo */
+    text-decoration: none; /* Remove sublinhado */
+    padding: 5px;
+    border-radius: 4px;
+}
+
+.delete-link:hover {
+    background-color: #e65959; /* Efeito de hover */
+    border-radius: 4px; /* Mantém bordas arredondadas no hover */
+    transition: 0.3s;
+}
